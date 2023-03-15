@@ -1,0 +1,229 @@
+.a-actif{
+    color: rgb(11, 143, 250);
+}
+.content-pages .banniere{
+    background-color: rgb(11, 143, 250);
+    width: 100%;
+    height: 150px;
+   
+
+}
+.content-pages .banniere p{
+ text-align: center;
+ margin-top: 0px;
+ padding-top: 50px;
+ font-size: 35px;
+ font-weight: bold; 
+}
+.content-pages .banniere p a{
+   text-decoration: none;
+   color: white;
+   }
+.content-pages .service-detail{
+    margin-top: 10%;
+}
+.content-pages .service-detail h2{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+    color: rgb(31, 30, 30);
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}   
+.content-pages .service-detail .services{
+
+    width:100% ;
+    color:rgb(31, 30, 30);
+}
+
+.content-pages .service-detail .services article{
+
+  
+    margin-top: 65px;
+    margin-bottom: 110px;
+    padding-left: 20px;
+}
+.content-pages .service-detail .services article img{
+
+    width:550px;
+    height: 350px;
+    margin-top: 35px;
+   float: left;
+   border-radius: 10px;
+    
+}
+.content-pages .service-detail .services article img:hover{
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: all .4s;
+    
+    }
+  
+.content-pages .service-detail .services article p{
+
+  padding-top: 0%;
+  margin-bottom: 2.5%;
+  padding-left: 2%; 
+  display: flex;
+  width: 55%;
+  text-align: justify;
+  color:rgb(31, 30, 30);
+
+}
+.content-pages .service-detail .services article .media{
+
+  display: flex;
+  float: right;
+  margin-top: -3%;
+  margin-right: 37%;
+}
+.content-pages .service-detail .services article .media img{
+
+ width: 38px;
+ margin-right: 10px;
+ height: 37px;
+ text-align: right;
+}
+.content-pages .service-detail .services article  .commande{
+    padding: 15px 5px 10px 5px;
+    color: white;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    text-decoration: none;
+    
+  
+  }.content-pages .service-detail .services article  .commande:hover{
+   
+    background-color: rgb(40, 155, 40);
+    
+  
+  }
+.content-pages .service-detail .services article .service-t {
+
+    text-align: right;
+    padding-top: 5px;
+    padding-left: 25px;
+    float: left;
+    font-size: 22px;
+    color: rgb(31, 30, 30);
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    
+   }
+.content-pages .service-detail .services article .service-t a{
+
+   color: rgb(11, 143, 250);
+   text-decoration: none;
+
+   }
+.content-pages .service-detail .services article .service-t a:hover{
+
+    color: rgb(11, 143, 250);
+    text-decoration: none;
+    border-bottom: none;
+ 
+    } 
+   
+/*****tutoriel****/
+
+.content-pages .link-tuto ul{
+    display: flex;
+    background-color: rgb(226, 222, 222);
+    margin-top: 0px;
+    height: 40px;
+   
+}
+.content-pages .link-tuto ul li{
+   list-style-type: none;
+   margin-left: 130px;
+   font-size: 17px;
+   line-height: 35px;
+}
+.content-pages .link-tuto ul li a{
+   color:rgb(11, 143, 250);
+   text-decoration: none;
+ }
+ .content-pages .link-tuto ul li a:hover{
+    color:rgb(76, 166, 240);
+    transition: all .3s;
+    
+  }
+  .content-pages .tutoriel-detail{
+   margin-top:8%;
+ }  
+ .content-pages .tutoriel-detail .tuto-title h2{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+    color: rgb(31, 30, 30);
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+  }  
+  .content-pages .tutoriel-detail .tutoriels{
+    width: 80%;
+    margin-bottom: 8%;
+  }
+  .content-pages .tutoriel-detail .tutoriels p{
+    text-align: left;
+    padding-left: 55px;
+    font-size: 17px;
+  }
+  .content-pages .tutoriel-detail .tutoriels p a{
+    color:rgb(11, 143, 250);
+    
+  }
+  .content-pages .tutoriel-detail .tutoriels h2{
+    text-align: left;
+    padding-left: 55px;
+    padding-bottom: 20px;
+    margin-top: 45px;
+    font-size: 25px;
+    color: rgb(31, 30, 30);
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+  }
+  .content-pages .tutoriel-detail .tutoriels article{
+    display: inline-block;
+    margin-left: 70px;
+    background-color: rgb(206, 205, 205);
+    text-align: justify;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 310px;
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  .content-pages .tutoriel-detail .tutoriels article:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+  .content-pages .tutoriel-detail .tutoriels article img{
+    width: 300px;
+   height: 150px;  
+    padding-left: 0;
+    border-radius: 10px 10px 0px 0px;
+  }  
+  .content-pages .tutoriel-detail .tutoriels article a{
+   text-decoration: none;
+   color:rgb(10, 130, 228);
+   padding-left: 5px;
+  } 
+  .content-pages .tutoriel-detail .detail-plus{
+    text-align: left;
+    padding-left: 55px;
+    font-size: 18px;
+   }
+   .content-pages .tutoriel-detail .detail-plus a{
+    color:rgb(11, 143, 250);
+    text-decoration: none;
+   }    
+  
+   .content-pages .tutoriel-detail .detail-plus a:hover{
+    color:rgb(34, 140, 226);
+    text-decoration: underline;
+   } 

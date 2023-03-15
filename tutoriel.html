@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>HelloWeb</title> 
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="img/LogoHelloweb.jpg">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/pagelinks.css">
+   <link rel="stylesheet" href="css/style2.css">
+     <link rel="stylesheet" href="css/slider.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/tms-0.4.1.js"></script>
+     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+     <script>
+      $(window).load(function(){
+		  $('.slider')._TMS({
+			show:0,
+			pauseOnHover:false,
+			prevBu:'.prev',
+			nextBu:'.next',
+			playBu:false,
+			duration:800,
+			preset:'fade',
+			easing:'easeOutQuad', 
+			pagination:true,//'.pagination',true,'<ul></ul>'
+			pagNums:false,
+			slideshow:8000,
+			numStatus:false,
+			banners:'fade',
+			waitBannerAnimation:false,
+			progressBar:false
+		  })  
+      });
+      
+	  $(window).load (
+		 function(){$('.carousel1').carouFredSel({auto: false,prev: '.prev1',next: '.next1', width: 960, items: {
+			 visible : {min: 4, max: 4},
+		  }, 
+		  responsive: false, 
+		  scroll: 1, 
+		  mousewheel: false,
+		  swipe: {onMouse: false, onTouch: false}});
+	  });      
+
+     </script>
+</head>
+<body>
+    <!--En tête de la page-->
+      <header>
+         <a class="title" href="EssaiSite.html"><img src="img/LogoHelloWeb.png"></a>
+         <nav>
+            
+               <ul class="menu">
+               <li><a href="services.html">Services</li>
+               <li><a class="a-actif" href="tutoriel.html">Tutoriel</li>
+                  <li><a href="">Blog</li>
+               <li><a href="">Documentation</li>
+               <li><a href="">A propos</li>
+               
+            </ul>
+         </nav> 
+      </header>
+      <div class="content-pages">
+        <div class="banniere">
+          <p><a href="">Tutoriel</a></p>
+        </div>
+        <div class="link-tuto">
+            <ul>
+                <li><a href="">Business en ligne</a></li>
+                <li><a href="">Marketing Digital</a></li>
+                <li><a href="">Financement projets</a></li>
+                <li><a href="">Création Graphique</a></li>
+                <li><a href="">Technologie</a></li>
+            </ul>
+        </div>
+        <div class="tutoriel-detail">
+            <div class="tuto-title"><h2>Trouver des tutoriels inspirants pour vos projets</h2></div>
+        <section class="tutoriels">
+            <h2>Marketing Digital</h2>
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+            </article>
+
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+            <p><a href="">Voir plus</a></p>
+        </section>  
+
+        <section class="tutoriels">
+            <h2>Création graphique</h2>
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+            <p><a href="">Voir plus</a></p>
+        </section>  
+
+        <section class="tutoriels">
+            <h2>Business en ligne</h2>
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+
+            <article>
+                <a href=""><img src="img/tuto-exemple.png">
+                    <p>Comment lancez votre business<br>en ligne avec votre Ordinateur</p></a>
+                </article>
+            </article>
+            <p><a href="">Voir plus</a></p>
+        </section> 
+        <div class="detail-plus"><a href="">Explorer plus de tutoriels...</a></div> 
+      </div>
+
+      <div>
+        <aside>
+            <h2></h2>
+        </aside>
+      </div>
+      </div>   
+      
+      <div class="pied-de-page">
+        <footer>
+           <p class="footer-t"><a href=""><img src="img/LogoHelloWeb.png"></a></p>
+           <div class="info-footer">
+              <ul class="nav-footer">
+                 <li><a href="">Services</li>
+                    <li><a href="">Tutoriel</li>
+                       <li><a href="">Blog</li>
+                    <li><a href="">Documentation</li>
+                    <li><a href="">A propos</li>
+              </ul>
+
+              <ul class="more-footer">
+                 <li><a href="">Contactez-nous</li>
+                    <li><a href="">Devenir partenaire</a></li>
+                       <p class="tel">+243854255222</p>
+              </ul>
+           </div>
+     
+           <div class="media-social">
+              <a href=""><img src="img/icon-1.png"></a>
+              <a href=""><img src="img/icon-2.png"></a>
+              <a href=""><img src="img/icon-3.png"></a>
+           </div>
+           <p class="p"> Crée par Winner Kapela 2023 &copy;</p>
+        </footer>
+      </div>
+      </body>
+      </html>
