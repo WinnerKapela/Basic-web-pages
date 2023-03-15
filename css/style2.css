@@ -30,8 +30,8 @@
 .carousel1 li .btn {background-color: orange; padding: 10px 25px; text-decoration:none; margin-top: 30px; border-radius: 10px; color: white; display: inline-block;}
 .carousel1 li .btn:hover {background-color: rgb(204, 135, 6);}
 a.prev1, a.next1 {
-	width: 29px;
-	height: 29px;
+	width: 30px;
+	height: 30px;
 	top: 150px;
 	position: absolute;
 	display: block;
